@@ -1,0 +1,254 @@
+/*GENERAL*/
+
+*
+{
+	width: auto;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	margin-top: 80px;
+}
+
+.btn
+{
+	font-size: 1em;
+}
+
+h1
+{
+	font-size: 1.7em;
+}
+
+/*NAVBAR HEADER*/
+
+#navbar
+{
+	padding: 10px 0;
+}
+
+#navbar header
+{
+	width: 100%;
+	margin: auto;
+	padding: 4px 0;
+}
+
+#navbar #logo img
+{
+    width: 150px;
+}
+
+#logo
+{
+	margin-left: 10px;
+}
+
+#menu_nav
+{
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	font-size: 0.8em
+}
+
+#menu_nav a
+{
+	padding: 0;
+}
+
+#menu_nav a:hover
+{
+    border-top: none;
+}
+
+/*SLIDER*/
+
+#slider
+{
+	background: url(images/bg11.jpg);
+	width: 100%;
+	height: 264px;
+}
+
+#slider_block 
+{
+	width: 80%;
+	padding-left: 30px;
+	color: #fff;
+}
+
+#slider_block h1
+{
+	font-size: 1.4em;
+}
+
+#slider_block p
+{
+	margin: 15px 0 0 0;
+	font-size: 0.7em;
+}
+
+.fa-chevron-left
+{
+	top: 100px;
+}
+
+.fa-chevron-right
+{
+	top: 100px;
+}
+
+/*SERVICES*/
+
+#service .header
+{
+	margin-top: 0;
+}
+
+#service .contenu
+{
+	display: block;
+	flex-wrap: wrap;
+}
+
+#service div img
+{
+	width: 220px;
+	height: 150px;
+	margin: 20px auto 0 auto;
+}
+
+#service div .articles
+{
+	margin-top: 20px;
+	width: auto;
+}
+
+#service div .articles article
+{
+	margin: 30px 5px;
+	display: block;
+	flex-wrap: wrap;
+	width: auto;
+	align-items: center;
+}
+
+#service div .articles article h2
+{
+	margin: 10px 0;
+}
+
+#service div .articles article p
+{
+	margin: 0;
+	line-height: 20px;
+}
+
+#service div .articles article .icones
+{
+	text-align: center;
+	margin: 22px 0;
+}
+
+#service div .articles article .glyph
+{
+	font-size: 20px;
+	margin: 10px auto;
+	padding: 12px;
+}
+
+.glyph:after
+{
+	right: -30px;
+	width: 10px;
+	height: 10px;
+}
+
+/*PROJETS*/
+
+#projet
+{
+	margin: 0 auto;
+}
+
+#projet #menu_projet
+{
+	width: 200px;
+	margin: 20px auto;
+}
+
+#projet #menu_projet a
+{
+	font-size: 10px;
+	height: 40px;
+}
+
+#projet #menu_projet a:hover
+{
+	background: #5cadd3;
+	color: #fff;
+	height: 37px;
+	border-bottom: 3px solid #468cad;
+}
+
+#projet #menu_projet #first
+{
+	height: 37px;
+}
+
+#projet #menu_projet #first::before
+{
+	content: '';
+	position: absolute;
+	top: 2.4rem;
+	left: 1.2rem;
+	border: 0.5rem solid transparent;
+	border-top-color: #468cad;
+	z-index: 1;
+}
+
+#projet #portfolio
+{
+	margin-top: 20px;
+}
+
+#projet #portfolio img
+{
+	width: 250px;
+	height: 167px;
+	margin: 15px;
+}
+
+.text {
+  width: 230px;
+}
+
+/*FOOTER*/
+
+#form
+{
+	position: relative;
+	top: 0;
+	right: 0;
+	text-align: center;
+	padding: 0;
+	margin: 10px auto;
+}
+
+#contact iframe
+{
+	height: auto;
+}
+.google-map__overlay 
+{
+    height: 100%;
+    max-height: 150px;
+}
+
+#form input, #form textarea
+{
+	width: 220px;
+}

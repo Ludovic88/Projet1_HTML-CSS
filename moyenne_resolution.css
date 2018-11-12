@@ -1,0 +1,66 @@
+/*GENERAL*/
+
+.header_block
+{
+	width: 80%;
+}
+
+/*NAVBAR HEADER*/
+
+#logo
+{
+	margin-left: 50px;
+}
+
+#menu_nav
+{
+	margin-right: 50px;
+}
+
+/*SLIODER*/
+
+#slider_block 
+{
+	width: 60%;
+	padding-left: 50px;
+}
+
+/*SERVICES*/
+
+#service .contenu
+{
+	display: block;
+	flex-wrap: wrap;
+}
+
+#service div .img
+{
+	width: auto;
+	text-align: center;
+}
+
+#service div img
+{
+margin: 30px 0 0 0;
+}
+
+#service div .articles
+{
+	margin-top: 20px;
+	width: auto;
+}
+
+/*PROJETS*/
+
+#projet
+{
+	margin-top: 50px;
+}
+
+/*FOOTER*/
+
+#form
+{
+	right: 20px;
+}
+
